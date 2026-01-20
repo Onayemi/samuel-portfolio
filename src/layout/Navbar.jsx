@@ -34,7 +34,7 @@ export const Navbar = () => {
           className="text-xl font-bold tracking-tight hover:text-primary"
         >
           {/* PM<span className="text-primary">.</span> */}
-          <img src="/logo.png" width={250} height={50} />
+          <img src="./logo.png" width={250} height={50} />
         </a>
 
         {/* Desktop Nav */}
