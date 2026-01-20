@@ -6,7 +6,15 @@ const projects = [
     description:
       "A comprehensive IT solutions platform offering web development, digital marketing, and IT consulting services for businesses of all sizes.",
     image: "./projects/yemtechit-project.png",
-    tags: ["React", "Laravel", "Typescript", "NodeJS", "Mysql"],
+    tags: [
+      "React",
+      "Laravel",
+      "Typescript",
+      "API Integration",
+      "Mysql",
+      "Tailwind",
+      "Shadcn UI",
+    ],
     link: "https://yemtechit.com/",
     github: "#",
   },
@@ -15,7 +23,7 @@ const projects = [
     description:
       "A scalable e-commerce platform featuring product management, shopping cart, payment integration, and order tracking.",
     image: "./projects/shadowguard.png",
-    tags: ["Next.js", "Stripe", "PostgreSQL", "Tailwind"],
+    tags: ["Wordpress", "Javascript", "online paymen", "Mysql", "Hubspot"],
     link: "https://shadowguardinc.com/",
     github: "#",
   },
@@ -24,7 +32,7 @@ const projects = [
     description:
       "Logistics and transportation company website with booking system, shipment tracking, and customer portal.",
     image: "./projects/routeco.png",
-    tags: ["React", "Laravel", "Mysql", "Typescript"],
+    tags: ["React", "Laravel", "Mysql", "Typescript", "Tailwind", "Shadcn UI"],
     link: "https://routecodesystemsltd.ca/",
     github: "#",
   },
@@ -33,7 +41,7 @@ const projects = [
     description:
       "Web Hosting, VPS Hosting, and integrations with WHMCS for seamless client management.",
     image: "./projects/seelhosting-project.png",
-    tags: ["Laravel", "Socket.io", "Mysql", "WHMCS", "Typescript"],
+    tags: ["Laravel", "Socket.io", "Mysql", "WHMCS", "Typescript", "Shadcn UI"],
     link: "https://seelhosting.ca/",
     github: "#",
   },

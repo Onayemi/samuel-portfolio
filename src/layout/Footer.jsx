@@ -74,7 +74,7 @@ export const Footer = () => {
         notification={true} // Show notification dot
         notificationSound={true} // Play notification sound
         notificationSoundSrc="/sound/whatsapp-notification.mp3"
-        avatar="/sam_pic.png" // Optional: path to your avatar image
+        avatar="./sam_pic.png" // Optional: path to your avatar image
         darkMode={false} // Or true for dark mode
         allowClickAway
         // Add more props as needed from the library's documentation
