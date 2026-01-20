@@ -20,3 +20,22 @@ git remote add origin git@github.com:Onayemi/samuel-portfolio.git
 git push -u origin main
 
 npm run deploy
+
+Private: samuel-portfolio.git
+public: samuel-pf.git
+# To push to public repository and protect privates
+git remote add public https://github.com/onayemi/samuel-pf.git
+
+npm run build
+npx gh-pages -d dist -r public
+
+STEP 7 — Enable GitHub Pages on the Public Repo
+In the public repo (samuel-portfolio):
+Go to Settings → Pages
+Source:
+Branch: gh-pages
+Folder: / (root)
+Save
+
+After 1–2 minutes, your site will be live at:
+👉 https://onayemi.github.io/samuel-portfolio/
