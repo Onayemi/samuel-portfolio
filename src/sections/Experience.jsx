@@ -4,7 +4,7 @@ const experiences = [
     role: "Senior Frontend Engineer",
     company: "Shadowguard Inc.",
     description:
-      "Leading frontend architecture for a suite of fintech products. Implemented micro-frontend architecture, reduced bundle size by 40%, and mentored a team of 5 developers.",
+      "Designed and implemented scalable frontend architectures for high-traffic applications. I mentored junior developers, fostering a culture of code quality and best practices.",
     technologies: ["React", "TypeScript", "Wordpress", "GraphQL"],
     current: true,
   },
@@ -13,26 +13,26 @@ const experiences = [
     role: "Hosting Appliction",
     company: "Seelhosting",
     description:
-      "Delivered custom web solutions for small businesses and startups. Built 15+ websites and applications, handling everything from design to deployment.",
+      "Developed a comprehensive hosting management application using WHMCS and Laravel. Improved user experience and streamlined billing processes, resulting in a 20% increase in customer retention.",
     technologies: ["JavaScript", "WHMCS", "Laravel", "MySQL"],
     current: false,
   },
   {
     period: "2020 — Present",
-    role: "Frontend Engineer",
+    role: "Fullstack Developer",
     company: "YemtechIt.",
     description:
-      "Built and maintained multiple React applications for enterprise clients. Introduced automated testing practices that improved code coverage to 85%.",
+      "Created and maintained web applications for various clients, focusing on performance and responsiveness. Led a team of 4 developers to deliver projects on time and within budget.",
     technologies: ["React", "Redux", "Jest", "Laravel"],
     current: false,
   },
   {
     period: "2019 — 2020",
-    role: "Junior Developer",
-    company: "StartUp Labs",
+    role: "Fulltstack Developer",
+    company: "Indent Resource Solutions",
     description:
-      "Contributed to the development of a SaaS platform from MVP to production. Collaborated with designers to implement pixel-perfect UI components.",
-    technologies: ["React", "Node.js", "MongoDB", "AWS"],
+      "Built and optimized RESTful APIs and frontend interfaces for enterprise clients. Collaborated closely with designers and product managers to deliver user-centric solutions.",
+    technologies: ["React", "Laravel", "Vue.js", "Node.js", "Mysql"],
     current: false,
   },
   {
@@ -40,8 +40,8 @@ const experiences = [
     role: "Freelance Developer",
     company: "Self-Employed",
     description:
-      "Delivered custom web solutions for small businesses and startups. Built 15+ websites and applications, handling everything from design to deployment.",
-    technologies: ["JavaScript", "PHP", "WordPress", "MySQL"],
+      "Delivered custom web solutions for small businesses and startups. Built 6+ websites and applications, handling everything from design to deployment.",
+    technologies: ["JavaScript", "Typescript", "Laravel", "WordPress", "MySQL"],
     current: false,
   },
 ];
