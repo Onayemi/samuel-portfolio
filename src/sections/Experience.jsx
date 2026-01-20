@@ -1,20 +1,29 @@
 const experiences = [
   {
-    period: "2022 — Present",
+    period: "2023 — Present",
     role: "Senior Frontend Engineer",
-    company: "Tech Innovators Inc.",
+    company: "Shadowguard Inc.",
     description:
       "Leading frontend architecture for a suite of fintech products. Implemented micro-frontend architecture, reduced bundle size by 40%, and mentored a team of 5 developers.",
-    technologies: ["React", "TypeScript", "Next.js", "GraphQL"],
+    technologies: ["React", "TypeScript", "Wordpress", "GraphQL"],
     current: true,
   },
   {
-    period: "2020 — 2022",
+    period: "2024",
+    role: "Hosting Appliction",
+    company: "Seelhosting",
+    description:
+      "Delivered custom web solutions for small businesses and startups. Built 15+ websites and applications, handling everything from design to deployment.",
+    technologies: ["JavaScript", "WHMCS", "Laravel", "MySQL"],
+    current: false,
+  },
+  {
+    period: "2020 — Present",
     role: "Frontend Engineer",
-    company: "Digital Solutions Co.",
+    company: "YemtechIt.",
     description:
       "Built and maintained multiple React applications for enterprise clients. Introduced automated testing practices that improved code coverage to 85%.",
-    technologies: ["React", "Redux", "Jest", "Cypress"],
+    technologies: ["React", "Redux", "Jest", "Laravel"],
     current: false,
   },
   {

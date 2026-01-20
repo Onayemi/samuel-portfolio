@@ -1,11 +1,15 @@
-import { Github, Linkedin, Twitter, Heart } from "lucide-react";
+import { Github, Linkedin, Youtube, Heart } from "lucide-react";
 
 import { FloatingWhatsApp } from "react-floating-whatsapp";
 
 const socialLinks = [
-  { icon: Github, href: "#", label: "GitHub" },
+  { icon: Github, href: "https://github.com/onayemi", label: "GitHub" },
+  {
+    icon: Youtube,
+    href: "https://www.youtube.com/@RemlexTechTv",
+    label: "Youtube",
+  },
   { icon: Linkedin, href: "#", label: "LinkedIn" },
-  { icon: Twitter, href: "#", label: "Twitter" },
 ];
 
 const footerLinks = [
@@ -25,10 +29,11 @@ export const Footer = () => {
           {/* Logo & Copyright */}
           <div className="text-center md:text-left">
             <a href="#" className="text-xl font-bold tracking-tight">
-              PM<span className="text-primary">.</span>
+              {/* PM<span className="text-primary">.</span> */}
+              <img src="/logo.png" width={250} height={50} />
             </a>
             <p className="text-sm text-muted-foreground mt-2">
-              © {currentYear} Pedro Machado. All rights reserved.
+              © {currentYear} Onayemi Samuel. All rights reserved.
             </p>
           </div>
 

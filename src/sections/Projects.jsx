@@ -2,39 +2,39 @@ import { ArrowUpRight, Github } from "lucide-react";
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 const projects = [
   {
-    title: "Fintech Dashboard",
+    title: "Tech. Expert",
     description:
-      "A comprehensive financial analytics platform with real-time data visualization, portfolio management, and AI-powered insights.",
-    image: "/projects/project1.png",
-    tags: ["React", "Typescript", "NodeJS"],
-    link: "#",
+      "A comprehensive IT solutions platform offering web development, digital marketing, and IT consulting services for businesses of all sizes.",
+    image: "/projects/yemtechit-project.png",
+    tags: ["React", "Laravel", "Typescript", "NodeJS", "Mysql"],
+    link: "https://yemtechit.com/",
     github: "#",
   },
   {
     title: "E-Commerce Platform",
     description:
-      "A full-featured e-commerce solution with inventory management, payment processing, and analytics dashboard.",
-    image: "/projects/project2.png",
+      "A scalable e-commerce platform featuring product management, shopping cart, payment integration, and order tracking.",
+    image: "/projects/shadowguard.png",
     tags: ["Next.js", "Stripe", "PostgreSQL", "Tailwind"],
-    link: "#",
+    link: "https://shadowguardinc.com/",
     github: "#",
   },
   {
-    title: "AI Writing Assistant",
+    title: "Logistics Company Website",
     description:
-      "An intelligent writing tool powered by GPT-4, helping users create better content faster.",
-    image: "/projects/project3.png",
-    tags: ["React", "OpenAI", "Python", "FastAPI"],
-    link: "#",
+      "Logistics and transportation company website with booking system, shipment tracking, and customer portal.",
+    image: "/projects/routeco.png",
+    tags: ["React", "Laravel", "Mysql", "Typescript"],
+    link: "https://routecodesystemsltd.ca/",
     github: "#",
   },
   {
-    title: "Project Management Tool",
+    title: "Web Hosting and VPS",
     description:
-      "A collaborative workspace for teams with real-time updates, task tracking, and integrations.",
-    image: "/projects/project4.png",
-    tags: ["Next.js", "Socket.io", "MongoDB", "Redis"],
-    link: "#",
+      "Web Hosting, VPS Hosting, and integrations with WHMCS for seamless client management.",
+    image: "/projects/seelhosting-project.png",
+    tags: ["Laravel", "Socket.io", "Mysql", "WHMCS", "Typescript"],
+    link: "https://seelhosting.ca/",
     github: "#",
   },
 ];
