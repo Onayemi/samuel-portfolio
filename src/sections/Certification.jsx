@@ -9,7 +9,7 @@ const projects = [
     link: "https://www.udemy.com/certificate/UC-af9c6ca9-8126-48c1-9521-e2e4c583e2c7/",
   },
   {
-    title: "React, Next.js & TypeScript Course",
+    title: "React, Next.js, TypeScript, Prisma and Better-auth Course",
     description:
       "Comprehensive course on building scalable web applications using React, Next.js, and TypeScript, Prisma, Better-auth.",
     tags: [
