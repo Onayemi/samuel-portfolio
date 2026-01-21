@@ -11,9 +11,40 @@ const projects = [
   {
     title: "React, Next.js & TypeScript Course",
     description:
-      "Comprehensive course on building scalable web applications using React, Next.js, and TypeScript.",
-    tags: ["React", "Typescript", "Next.js", "Mysql", "Shadcn UI", "Tailwind"],
+      "Comprehensive course on building scalable web applications using React, Next.js, and TypeScript, Prisma, Better-auth.",
+    tags: [
+      "React",
+      "Typescript",
+      "Next.js",
+      "Mysql",
+      "Shadcn UI",
+      "Tailwind",
+      "Prisma",
+      "Better-auth",
+    ],
     link: "https://www.udemy.com/certificate/UC-a129dfc8-43b0-46d6-b863-6975a6e77106/",
+  },
+  {
+    title: "Node.js, Express, MongoDB & More: The Complete Bootcamp 2024",
+    description:
+      "In-depth course on backend development using Node.js, Express, and MongoDB, covering RESTful APIs, authentication, and deployment.",
+    tags: [
+      "Node",
+      "Typescript",
+      "Prisma",
+      "Mysql",
+      "MongoDB",
+      "Better-auth",
+      "REST API",
+    ],
+    link: "https://www.udemy.com/certificate/UC-84a647ac-fd1e-4f1a-95a0-32d0c43bb174/",
+  },
+  {
+    title: "C# and .NET Development",
+    description:
+      "Comprehensive course on C# programming and .NET framework for building robust applications.",
+    tags: ["C#", "LINQ", "OOP", "ASP.NET", "Entity Framework", "SQL Server"],
+    link: "https://www.udemy.com/certificate/UC-bb370106-5220-4e26-9ce0-fa36f938a994/",
   },
   {
     title: "Data Analysis with SPSS, Excel & Tableau",
@@ -34,13 +65,6 @@ const projects = [
       "ElevenLab Voice AI",
     ],
     link: "https://www.udemy.com/certificate/UC-ee69b2e5-2611-4e4e-a7e5-fd224c572f63/",
-  },
-  {
-    title: "C# and .NET Development",
-    description:
-      "Comprehensive course on C# programming and .NET framework for building robust applications.",
-    tags: ["C#", "LINQ", "OOP", "ASP.NET", "Entity Framework", "SQL Server"],
-    link: "https://www.udemy.com/certificate/UC-bb370106-5220-4e26-9ce0-fa36f938a994/",
   },
 ];
 
