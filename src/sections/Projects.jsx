@@ -79,7 +79,7 @@ export const Projects = () => {
           </span>
           <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animation-delay-100 text-secondary-foreground">
             Projects that showcase my skills and passion for technology,
-            designed to solve real-world problems.
+            designed to solve real-world problems
             <span className="font-serif italic font-normal text-white">
               {" "}
               make an impact.
