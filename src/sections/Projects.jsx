@@ -2,6 +2,24 @@ import { ArrowUpRight, Github } from "lucide-react";
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 const projects = [
   {
+    title: "Singles Platform",
+    description:
+      "Gen21singles is a dating platform that connects individuals seeking meaningful relationships, offering a user-friendly interface, advanced matching algorithms, and secure communication features.",
+    image: "./projects/gen218-logo.png",
+    tags: [
+      "React",
+      "Inertia.js",
+      "Laravel",
+      "Typescript",
+      "API Integration",
+      "Mysql",
+      "Tailwind",
+      "Shadcn UI",
+    ],
+    link: "https://gen218singles.com/",
+    github: "#",
+  },
+  {
     title: "Tech. Expert",
     description:
       "A comprehensive IT solutions platform offering web development, digital marketing, and IT consulting services for businesses of all sizes.",
