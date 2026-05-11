@@ -11,7 +11,7 @@ const projects = [
       "Inertia.js",
       "Laravel",
       "Typescript",
-      "API Integration",
+      "Google API Integration",
       "Mysql",
       "Tailwind",
       "Shadcn UI",
