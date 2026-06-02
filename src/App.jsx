@@ -17,7 +17,7 @@ function App() {
         <About />
         <Projects />
         <Experience />
-        {/* <Testimonials /> */}
+        {/* disable the area <Testimonials /> */}
         <Certification />
         <Contact />
       </main>
