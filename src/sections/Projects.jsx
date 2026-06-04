@@ -5,7 +5,7 @@ const projects = [
     title: "Singles Platform",
     description:
       "Gen21singles is a dating platform that connects individuals seeking meaningful relationships, offering a user-friendly interface, advanced matching algorithms, and secure communication features.",
-    image: "./projects/gen218-logo.png",
+    image: "./projects/gen218.png",
     tags: [
       "React",
       "Inertia.js",
