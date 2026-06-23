@@ -13,6 +13,7 @@ const projects = [
       "Google API Integration",
       "Mysql",
       "Continous CI/CD Deploy",
+      "Training",
     ],
     link: "http://abcofcloudcomputing.org",
     github: "#",
