@@ -2,6 +2,22 @@ import { ArrowUpRight, Github } from "lucide-react";
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 const projects = [
   {
+    title: "ABC Cloud",
+    description:
+      "Remlex Technologies IT solutions platform offering web development, digital marketing, and IT consulting services for businesses",
+    image: "./projects/abc_cloud.png",
+    tags: [
+      "React",
+      "Wordpress",
+      "Laravel",
+      "Google API Integration",
+      "Mysql",
+      "Continous CI/CD Deploy",
+    ],
+    link: "http://abcofcloudcomputing.org",
+    github: "#",
+  },
+  {
     title: "IT Consultant Firm",
     description:
       "Remlex Technologies IT solutions platform offering web development, digital marketing, and IT consulting services for businesses",
@@ -86,10 +102,7 @@ const projects = [
 
 export const Projects = () => {
   return (
-    <section
-      id="projects"
-      className="py-32 relative overflow-hidden px-20 mx-auto"
-    >
+    <section id="projects" className="py-20 relative overflow-hidden">
       {/* Bg glows */}
       <div className="absolute top-1/4 right-0 w-96 h-96 bg-primary/5 rounded-full blur-3xl" />
       <div className="absolute bottom-1/4 left-0 w-64 h-64 bg-highlight/5 rounded-full blur-3xl" />

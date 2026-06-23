@@ -1,7 +1,40 @@
 const experiences = [
   {
-    period: "2023 — Present",
+    period: "January 2026 — Present",
+    role: "Fullstack Development (Remote)",
+    company: "ABC Cloud",
+    description:
+      "I design, build, and scale full-stack architectures engineered for high-traffic environments, bridging the gap between complex application code and cloud infrastructure (AWS/Linux). Beyond shipping production-ready software, I am deeply committed to technical education. I develop and deliver targeted training modules in modern development frameworks, cloud deployment, and Linux systems administration—fostering a culture of continuous learning, strict code quality, and DevOps best practices",
+    technologies: [
+      "Laravel API",
+      "React",
+      "Wordpress",
+      "Mysql",
+      "Continous CI/CD Deploy",
+    ],
+    current: true,
+  },
+  {
+    period: "February 2022 — December 2025",
     role: "Senior Frontend Engineer",
+    company: "Remlex Technologies",
+    description:
+      "I design and implement scalable full-stack architectures, building everything from robust backend services and databases to performant, user-centric frontend interfaces engineered for heavy traffic. Beyond technical execution, I am passionate about scaling engineering teams; I actively mentor junior developers across the stack and cultivate a collaborative culture centered around code quality, system reliability, and modern engineering practices.",
+    technologies: [
+      "Laravel API",
+      "React",
+      "NextJs",
+      "Prisma",
+      "TypeScript",
+      "Mysql",
+      "PostgreSql",
+      "Continous CI/CD Deploy",
+    ],
+    current: true,
+  },
+  {
+    period: "June 2023 — December 2023",
+    role: "Senior Frontend Engineer (Remote)",
     company: "Shadowguard Inc.",
     description:
       "Designed and implemented scalable frontend architectures for high-traffic applications. I mentored junior developers, fostering a culture of code quality and best practices.",
@@ -9,7 +42,7 @@ const experiences = [
     current: true,
   },
   {
-    period: "2024",
+    period: "2022 January - May 2023",
     role: "Hosting Appliction",
     company: "Seelhosting",
     description:
@@ -18,8 +51,8 @@ const experiences = [
     current: false,
   },
   {
-    period: "2020 — Present",
-    role: "Fullstack Developer",
+    period: "2020 — 2021 December",
+    role: "Fullstack Developer (Remote)",
     company: "YemtechIt.",
     description:
       "Created and maintained web applications for various clients, focusing on performance and responsiveness. Led a team of 4 developers to deliver projects on time and within budget.",
@@ -48,7 +81,7 @@ const experiences = [
 
 export const Experience = () => {
   return (
-    <section id="experience" className="py-32 relative overflow-hidden">
+    <section id="experience" className="py-20 relative overflow-hidden">
       <div
         className="absolute top-1/2 left-1/4 w-96
        h-96 bg-primary/5 rounded-full blur-3xl -translate-y-1/2"

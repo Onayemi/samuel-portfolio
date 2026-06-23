@@ -40,6 +40,13 @@ const projects = [
     link: "https://www.udemy.com/certificate/UC-84a647ac-fd1e-4f1a-95a0-32d0c43bb174/",
   },
   {
+    title: "UI / UX Design",
+    description:
+      "UI/UX Architect with a passion for crafting intuitive, high-performance digital experiences.",
+    tags: ["Figma", "Canva", "Adobe XD", "Prototype", "Wireframe"],
+    link: "#",
+  },
+  {
     title: "C# and .NET Development",
     description:
       "Comprehensive course on C# programming and .NET framework for building robust applications.",
@@ -70,7 +77,7 @@ const projects = [
 
 export const Certification = () => {
   return (
-    <section id="projects" className="py-32 relative overflow-hidden">
+    <section id="projects" className="py-20 relative overflow-hidden">
       {/* Bg glows */}
       <div className="absolute top-1/4 right-0 w-96 h-96 bg-primary/5 rounded-full blur-3xl" />
       <div className="absolute bottom-1/4 left-0 w-64 h-64 bg-highlight/5 rounded-full blur-3xl" />
