@@ -2,7 +2,7 @@ import { ArrowUpRight, Github } from "lucide-react";
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 const projects = [
   {
-    title: "II Consultant",
+    title: "IT Consultant Firm",
     description:
       "Remlex Technologies IT solutions platform offering web development, digital marketing, and IT consulting services for businesses",
     image: "./projects/remlex.png",
