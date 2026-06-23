@@ -2,6 +2,25 @@ import { ArrowUpRight, Github } from "lucide-react";
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 const projects = [
   {
+    title: "II Consultant",
+    description:
+      "Remlex Technologies IT solutions platform offering web development, digital marketing, and IT consulting services for businesses",
+    image: "./projects/remlex.png",
+    tags: [
+      "React",
+      "Inertia.js",
+      "Laravel",
+      "Typescript",
+      "Google API Integration",
+      "LocationAPI Integration",
+      "Mysql",
+      "Tailwind",
+      "Shadcn UI",
+    ],
+    link: "https://remlextech.com/",
+    github: "#",
+  },
+  {
     title: "Singles Platform",
     description:
       "Gen21singles is a dating platform that connects individuals seeking meaningful relationships, offering a user-friendly interface, advanced matching algorithms, and secure communication features.",
