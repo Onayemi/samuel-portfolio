@@ -10,9 +10,9 @@ import { Footer } from "./layout/Footer";
 
 function App() {
   return (
-    <div className="min-h-screen overflow-x-hidden mx-10">
+    <div className="min-h-screen overflow-x-hidden">
       <Navbar />
-      <main>
+      <main className="px-5 lg:px-10">
         <Hero />
         <About />
         <Projects />
