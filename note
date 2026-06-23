@@ -21,7 +21,7 @@ git push -u origin main
 
 npm run deploy
 
-# If there is error in push
+# If there is error in push add to github
 
 git fetch origin
 git pull origin main --rebase
